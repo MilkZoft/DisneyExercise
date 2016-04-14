@@ -18,8 +18,7 @@
         angular
             .module('moviesApp', [
                 'restangular',
-                'movies.moviesDataService',
-                'ngSanitize'
+                'movies.moviesDataService'
             ])
             .config(MoviesAppConfig);
 
