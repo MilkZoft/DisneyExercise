@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.clearfix {
+    clear: both;
+}
+
+header .main-title {
+    font-size: 3em;
+    text-align: center;
+}
+
+header .search {
+    margin: 0 auto;
+    width: 50%;
+}
+
+header .search input {
+    font-family: 'FontAwesome', sans-serif;
+    position: relative;
+    height: 40px;
+    width: 100%;
+}
+
+header .summary {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px 0;
+    height: 20px;
+    width: 90%;
+    position: relative;
+}
+
+header .summary .results,
+header .summary .filter {
+    display: inline-block;
+}
+
+header .summary .results {
+    position: absolute;
+}
+
+header .summary .filter {
+    position: absolute;
+    right: 0;
+}
+
+.movies {
+    width: 100%;
+    max-width: 700px;
+    margin: 2em auto;
+}
+
+.movies article {
+    margin-bottom: 20px;
+}
+
+.movies article .title {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.movies article .thumbnail {
+    float: left;
+    width: 200px;
+}
+
+.movies article .info h3 {
+    cursor: pointer;
+}
+
+.movies article .info h3 .rating {
+    border: 1px solid gray;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.movies article .go-back {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.movies .pagination {
+    width: 105px;
+    margin: 0 auto;
+}
